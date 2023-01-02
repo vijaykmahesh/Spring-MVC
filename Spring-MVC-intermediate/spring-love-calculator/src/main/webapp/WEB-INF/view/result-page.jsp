@@ -13,11 +13,12 @@
 	<h1 align="center">Love Calculator</h1>
 
 	<hr />
-
-	<p>UserName is: ${userInfo.userName}
-	</p>
-	
-	<p>CrushName is: ${userInfo.crushName}
-	</p>
+	<h2>The Love Predicts :</h2>
+	<br/>
+	${userInfo.crushName} and ${userInfo.userName} are 
+	<br/>
+	Friend
+	<br/>
+	<a href="/spring-love-calculator/sendEmail">Send Result To Your Email</a> 
 </body>
 </html>

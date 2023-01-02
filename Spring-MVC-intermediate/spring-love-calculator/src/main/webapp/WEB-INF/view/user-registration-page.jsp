@@ -44,12 +44,31 @@
 			<label>Gender :</label>
 	Male :<form:radiobutton path="gender" value="male" />
 	Female :<form:radiobutton path="gender" value="female" />
+	
+	<br/>
+	<label>Age :</label>
+	<form:input path="age"/>
+	<form:errors path="age"></form:errors>
+	<br/>
+	
 
 			<input type="submit" value="Register">
 
-		</form:form>
-
 	</div>
+	
+	<div align="center">
+	
+	<h3>Communication</h3>
+	
+	<label>Email</label>
+	<form:input path="communicationDTO.email"/>
+	
+	<label>Phone</label>
+	<form:input path="communicationDTO.phone"/>
+	
+	</div>
+	
+	</form:form>
 
 
 </body>

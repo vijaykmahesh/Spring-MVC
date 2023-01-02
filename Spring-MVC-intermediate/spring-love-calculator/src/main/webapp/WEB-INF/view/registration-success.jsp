@@ -21,6 +21,12 @@
 	<c:forEach var="temp" items="${userReg.hobbies}">
 	${temp}
 	</c:forEach>
+	<br/>
+	
+	Email : ${userReg.communicationDTO.email}
+	
+	<br/>
+	Phone : ${userReg.communicationDTO.phone}
 
 
 </body>
